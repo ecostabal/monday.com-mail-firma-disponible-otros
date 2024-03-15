@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Urbex Correo</title>
+    <style>
+        body {
+            font-family: Lato, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            color: #424242;
+            font-size: 2.5em;
+            line-height: 1.6em;
+            margin-bottom: 2em;
+            text-align: center; /* Centrar título */
+            padding-left: 40px;
+            padding-right: 40px;            
+        }
+
+        p {
+            color: #3A5E6C;
+            font-size: 1.6em;
+            line-height: 2em;
+            margin-bottom: 1em;
+            padding: 0 5%; /* Ajustado para móviles */
+        }
+
+        .tipoContrato {
+            text-align: center;
+            margin-bottom: 3em;
+        }
+
+        .tipoContrato p {
+            background-color: #EDF0F2;
+            color: #3A5E6C;
+            font-size: 1em;
+            line-height: 2em;
+            border-radius: 10em;
+            text-align: center;
+            display: inline-block; /* Hace que el elemento se ajuste al contenido */
+            padding: 0.5em 2em; /* Añade espacio interno en todos los lados */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .content, .footer {
+            max-width: 600px; /* Límite de ancho para el contenido y pie de página */
+            margin: 0 auto;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1em;
+            color: #999999;
+            padding: 20px 0;
+        }
+
+        .footer p {
+            font-size: 1em;
+        }
+
+        .button-container {
+            text-align: center; /* Centrar contenedor del botón */
+            margin-top: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 20px 50px; /* Aumenta el padding para un botón más grande */
+            background-color: #424242;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            font-size: 1.6em; /* Aumenta el tamaño de la fuente para un texto más grande en el botón */
+        }
+
+        img {
+            max-width: 100%; /* Establece el ancho máximo de la imagen al 100% de la ventana del navegador */
+            height: auto; /* Mantiene la proporción de aspecto de la imagen */
+            display: block; /* Asegura que no haya margen adicional debajo de la imagen */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content, .footer {
+                padding: 0%;
+            }
+
+            .container {
+                padding: 5%;               
+            }
+
+            h1 {
+                font-size: 2em;
+                line-height: 1.6em;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            p {
+                font-size: 1.2em;
+                padding-left: 20px;
+                padding-right: 20px;
+            }                
+
+            .button-container {
+                text-align: center; /* Centrar contenedor del botón */
+                margin-top: 40px;
+            }
+
+            .button {
+                padding: 20px 50px;
+                font-size: 1.2em; /* Aumenta el padding para un botón más grande */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://storage.googleapis.com/miscelaneous-urbx/Mail%20-%20Banner.jpg">
+        <div class="tipoContrato">
+            <p>📝 [TipoContrato]</p>
+        </div>
+        <h1>¡Tu contrato está disponible para ser firmado!</h1>
+        <div class="content">
+            <p>Hola <strong>[Nombre]</strong>:</p>
+            <p>El contrato respectivo a la propiedad ubicada en <strong>[Dirección]</strong>, ya está disponible para ser firmado. Para firmar, debes ingresar tu rut en nuestra página web y seguir los pasos.</p>
+            <p><strong>Importante:</strong> Recuerda tener a mano tu Clave Única.</p>
+            <br>
+            <p>¡Que tengas buen día!</p>
+            <p><strong>Equipo Urbex</strong></p>
+            <div class="button-container">
+                <a href="https://urbx.io/cl/notario" class="button">Ir a Firmar</a>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="https://storage.googleapis.com/miscelaneous-urbx/LOGO-intro-outro-_1_%20(1).gif" width="200">
+            <p>Este es un correo enviado automáticamente con información exclusiva a [Correo] y no debe ser respondido.</p>
+        </div>
+        <img src="https://storage.googleapis.com/miscelaneous-urbx/Mail%20-%20Footer.jpg">
+    </div>
+</body>
+</html>
